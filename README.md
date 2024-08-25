@@ -1,6 +1,7 @@
-                                            Student Management Portal
+ ```
+                                             Student Management Portal
 ======================================================================================================================
-```1. Table of Contents
+1. Table of Contents
 2. Introduction
 3. Features
 4. Technologies Used
@@ -41,7 +42,7 @@ Profile Management: Users can view and update their profile information.
 Course Enrollment: Users select and enroll in courses.
 Grade Viewing: Users view their grades for enrolled courses.
 
-```
+
 student-management-portal/
 │
 ├── app.py                # Main application file
@@ -59,7 +60,7 @@ student-management-portal/
 │   └── uploads/
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
-```
+
 =======================================================================================================================
                                                   Future Enhancements:
 ======================================================================================================================
