@@ -1,0 +1,115 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #007bff;
+    padding: 10px;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 15px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Container styles */
+  .container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .card-header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Profile styles */
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  .profile-details h4 {
+    margin: 0;
+  }
+  
+  .profile-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-details ul li {
+    margin: 5px 0;
+  }
+  
+  /* Grades table styles */
+  .grades-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .grades-table th, .grades-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .grades-table th {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
