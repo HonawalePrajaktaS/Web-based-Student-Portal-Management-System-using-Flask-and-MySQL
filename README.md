@@ -1,6 +1,6 @@
                                             Student Management Portal
 ======================================================================================================================
-1. Table of Contents
+```1. Table of Contents
 2. Introduction
 3. Features
 4. Technologies Used
@@ -65,7 +65,7 @@ student-management-portal/
 ======================================================================================================================
 Admin Panel: Add an admin interface for managing student data and courses.
 Email Notifications: Implement email notifications for course enrollments and grade updates.
-Reporting: Add functionality for generating student performance reports.
+Reporting: Add functionality for generating student performance reports.```
 
 
 
