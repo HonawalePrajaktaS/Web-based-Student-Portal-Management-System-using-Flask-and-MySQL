@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Enroll in Courses</h1>
+    <form action="/enroll" method="post">
+        <label for="course"> Course List :</label>
+        <select id="course" name="course">
+            <option value="Select course">Select course</option>
+            <option value="Big Data Analytics">Big Data Analytics</option>
+            <option value="Advanced computing">Advanced computing</option>
+            <option value="XYZ">XYZ</option>
+            <!-- Add more courses here -->
+        </select>
+        <br><br>
+        <input type="submit" value="Enroll">
+    </form>
+</body>
+</html>
